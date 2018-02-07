@@ -1,0 +1,247 @@
+/*Gretel Martinez font's only'*/
+@import url('https://fonts.googleapis.com/css?family=Caesar+Dressing');
+
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: repeat;
+/*    background-size: 300px 300px;*/
+    
+}
+
+#g-logo {
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 35px;
+    color: white;
+    line-height: 60px;
+}
+
+#g-logo:hover {
+    color: #D6A2E8 !important;
+}
+
+.g-header {
+    border-bottom: solid 6px #D6A2E8;    
+}
+
+.g-header, .g-nav {
+    background-color: #82589F !important;
+    opacity: 0.90;
+}
+
+.g-nav, .g-li {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.g-a {
+    color: #ffffff !important;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.g-a:focus {
+    color: #D6A2E8 !important;
+}
+
+.g-a:hover {
+    color: #82589F !important;
+}
+
+.g-button {
+    margin-top: 10px;
+    cursor: pointer;
+    color: #D6A2E8 !important;
+    border: 0 !important;
+}
+
+.g-button:hover {
+    color: white !important;    
+}
+
+.g-li:hover {
+    background-color: #FFFFFF; 
+}
+
+.g-content-margin {
+     margin-top: 2%;  
+}
+
+.g-border {
+    padding: 25px;
+    border-right: solid 6px #D6A2E8;  
+    border-left: solid 6px #D6A2E8;
+}
+
+.g-main-background {
+    background-color: #ffffff;        
+}
+
+hr {
+    background-color: #82589F; 
+    height: 6px !important;
+}
+
+/*CONTENT*/
+
+.g-img {
+    border: solid 3px #ffffff;
+    
+}
+
+.g-img:hover {
+    cursor: pointer;
+    opacity: 0.90;
+}
+
+.g-content-header {
+    padding-top: 2% !important;  
+    color: #82589F;
+    text-align: center;
+}
+
+/*CONTACT ME*/
+#contactme {
+    font-size: 1.5em;
+    text-align: center !important;  
+    line-height: 1.5em;
+    font-weight: bold;
+}
+
+.g-direction {
+    opacity: 0.8;
+}
+
+.g-direction:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 550px) {
+
+    .g-direction {
+        display: none;
+        opacity: 0;
+    }
+}
+
+.g-sidebar {
+     position: fixed !important;
+     top: 50% !important;
+     right: 60px !important;
+    
+}
+
+/*FOOTER*/
+.g-footer {
+    background-color: #2c3e50;
+    text-align: center;
+    border-top: solid 6px #D6A2E8;
+    color: #b2bec3;
+    font-size: 25px;
+}
+
+/*Shadow*/
+.g-shadow {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+
+/*Header text effect*/
+.g-text-effect {
+  letter-spacing: .05em;
+  text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);  
+}
+
+/*fontawesome icons colors*/
+.g-orange {
+    color: #e1b12c !important;   
+}
+
+.g-dark {
+    color: #34495e !important; 
+}
+
+.g-center {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.fa:hover {
+    opacity: 0.7;    
+}
+
+.g-contact {
+    border-radius: 10px;
+}
+
+.g-social-icon {
+    width: 60px;
+    height: auto;
+    border-right-color: #D6A2E8 !important;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    -webkit-box-shadow: 0px 0px 16px 2px rgba(179,177,179,1);
+    -moz-box-shadow: 0px 0px 16px 2px     rgba(179,177,179,1);
+    box-shadow: 0px 0px 16px 2px rgba(179,177,179,1);
+}
+
+.g-ligth {
+    color: white !important; 
+}
+
+.g-color-dark {
+    background-color: #2c3e50;
+    border: solid 6px #34495e;
+}
+
+.g-color-blue {
+    background-color: #0097e6;
+    border: solid 6px #00a8ff;
+}
+
+.g-color-orange {
+    background-color: #e1b12c; 
+    border: solid 6px #fbc531;
+}
+
+
+#social_side_links {
+   position: fixed;
+   top: 200px;
+   right: 0;
+   padding: 0;
+   list-style: none;
+   z-index: 99;
+}
+
+#social_side_links li a {display: block;}
+
+#social_side_links li a img {
+	display: block;
+	max-width:60px;
+    padding: 10px;
+    -webkit-transition:  background .2s ease-in-out;
+    -moz-transition:  background .2s ease-in-out;
+    -o-transition:  background .2s ease-in-out;
+    transition:  background .2s ease-in-out;
+}
+
+#social_side_links li a:hover img {
+    background: rgba(0, 0, 0, .2);
+}
+
+@media screen and (max-width: 420px){
+   #g-logo {
+     font-size : 20px;
+   }
+}
+
+/*portfolio*/
+.g-port-img {
+    width: 256px;
+    height: 180px;
+}
+
